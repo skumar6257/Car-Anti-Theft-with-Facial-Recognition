@@ -11,12 +11,11 @@ Before running the project, install the required Python packages using:
 pip install -r requirements.txt
 ```
 
-> **Note:** While running on Raspberry Pi, comment out the commented lines.
-
 ## Demo 
-  ```
+  ```bash
   python CarLock_FaceApp.py
   ``` 
+> **Note:** While running on Raspberry Pi, comment out the commented lines. Place all trusted users images in KnownUser directory. Replace your created Telegram Bot token ID in Configuration class. For more details on creating and using your own Telegram Bot, visit: https://core.telegram.org/bots/features#botfather.
 
 Don't forget to star the repo if it is helpful for your research 
 
