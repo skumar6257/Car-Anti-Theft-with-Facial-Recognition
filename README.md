@@ -9,6 +9,7 @@ Before running the project, install the required Python packages using:
 
 ```bash
 pip install -r requirements.txt
+```
 
 > **Note:** While running on Raspberry Pi, comment out the commented lines.
 
