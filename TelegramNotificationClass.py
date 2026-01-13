@@ -13,6 +13,9 @@ class TelegramNotificationClass:
         self.BOT_TOKEN = bot_token
         self.CHAT_ID = chat_id
         self.LAST_UPDATE_ID = last_update_id
+
+        assert self.BOT_TOKEN!="Fill your BOT Token", "Your Telegram BOT Token ID is missing in config.json created"
+        assert self.CHAT_ID!="Fill your Chat ID", "Your Telegram BOT Chat ID is missing in config.json craeted"
         
         
     ##Send Telegram Message
@@ -206,4 +209,5 @@ class TelegramNotificationClass:
         except Exception as e:
             # Print the exception message
             print(f"Error occurred while Updating Live Location: {e}")
+
             return None
