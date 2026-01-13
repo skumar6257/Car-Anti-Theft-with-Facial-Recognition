@@ -27,7 +27,7 @@ Don't forget to star the repo if it is helpful for your research
       <em>Figure 1: Hardware Setup</em>
     </td>
     <td align="center">
-      <img src="assets/Telegram_Alerts.svg" width="300"><br>
+      <img src="assets/Telegram_Alerts.svg" width="500"><br>
       <em>Figure 2: Telegram Alerts</em>
     </td>
   </tr>
