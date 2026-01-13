@@ -42,7 +42,11 @@ config_data = configuration.config_file
 telegram_bot = TelegramNotificationClass(config_data['BOT_TOKEN'], 
                                          config_data['CHAT_ID'],
                                          config_data['LAST_UPDATE_ID'])
-face_class = FacialRecoginitionClass('known_user_encodings.pth','KnownUser')
+known_user_directory =  'KnownUser'
+face_class = FacialRecoginitionClass('known_user_encodings.pth',known_user_directory)
+assert os.path.exists(known_user_directory), f"Please create '{known_user_directory}' directory"
+images = [f for f in os.listdir(known_user_directory) if f.lower().endswith((".jpg", ".png", ".jpeg"))]
+assert len(images), f"Please load images in '{known_user_directory}' directory"
 face_class.load_face_model()
 face_class.load_facial_encodings()
 gpio = GPIOClass(HW_MODE, BUZZER_PIN, MOTOR_PIN, LOCK_PIN,UNLOCK_PIN, START_BUTTON_PIN)
@@ -132,4 +136,5 @@ finally:
         if os.path.isfile(file_path):
             os.remove(file_path)
     # if HW_MODE: 
+
     #     GPIO.cleanup()
