@@ -36,5 +36,11 @@ Don't forget to star the repo if it is helpful for your research
 ## Reference 
 * https://github.com/xuexingyu24/MobileFaceNet_Tutorial_Pytorch - For Facial Recoginition
 
+@unpublished{,
+  title   = {Car Anti-Theft System using Driver Facial Biometrics Authentication and Telegram Alert},
+  author  = {Kumar, S. and Karthika, R.},
+  note    = {Presented at the 3rd International Conference on Power Engineering and Intelligent Systems (PEIS 2025)},
+  year    = {2025}
+}
 
 
