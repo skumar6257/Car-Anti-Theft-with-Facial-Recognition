@@ -19,6 +19,20 @@ pip install -r requirements.txt
 
 Don't forget to star the repo if it is helpful for your research 
 
+## Results
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/Real-Time_Hardware.png" width="300"><br>
+      <em>Figure 1: Hardware Setup</em>
+    </td>
+    <td align="center">
+      <img src="assets/Telegram_Alerts.svg" width="300"><br>
+      <em>Figure 2: Telegram Alerts</em>
+    </td>
+  </tr>
+</table>
+
 ## Reference 
 * https://github.com/xuexingyu24/MobileFaceNet_Tutorial_Pytorch - For Facial Recoginition
 
