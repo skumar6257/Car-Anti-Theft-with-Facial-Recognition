@@ -168,7 +168,7 @@ class FacialRecoginitionClass:
         else:
             #Create Encoding File
             #Creating Facial Encoding Of Known Users From Database
-            images=os.listdir(self.image_directory)
+            images=[f for f in os.listdir(self.image_directory) if f.lower().endswith((".jpg", ".png", ".jpeg"))]
             names = []
             encodings = []
             for image_filename in images:
@@ -408,4 +408,5 @@ class FacialRecoginitionClass:
         # Release the capture and close the window
         cv2.destroyAllWindows()
         
+
         return
