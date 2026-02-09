@@ -1,6 +1,15 @@
 # Car-Anti-Theft-with-Facial-Recognition
 Car anti-theft system designed for Raspberry Pi with in-cabin camera based facial recognition and telegram-based live alerts. The anti-theft system also includes a fail-safe door lock, electronic immobilizer and a sound alarm system.
 
+## 📄 Related Publication
+
+This repository accompanies the paper:
+
+**Car Anti-theft System Using Driver Facial Biometrics Authentication and Telegram Alert**  
+Sourav Kumar, R. Karthika, 2026  
+Springer, Power Engineering and Intelligent Systems (PEIS 2025)  
+DOI: https://doi.org/10.1007/978-981-96-9724-3_6
+
 ## You can download Rasperry Pi Image from here - https://github.com/Qengineering/RPi-Bullseye-DNN-image
 
 ## Installation
@@ -41,11 +50,19 @@ Don't forget to star the repo if it is helpful for your research
 If you use this work, please cite:
 
 ```bibtex
-@unpublished{kumar2025carantitheft,
-  title   = {Car Anti-Theft System using Driver Facial Biometrics Authentication and Telegram Alert},
-  author  = {Kumar, S. and Karthika, R.},
-  note    = {Presented at the 3rd International Conference on Power Engineering and Intelligent Systems (PEIS 2025)},
-  year    = {2025}
+@InProceedings{10.1007/978-981-96-9724-3_6,
+author="Kumar, Sourav
+and Karthika, R.",
+editor="Shrivastava, Vivek
+and Bansal, Jagdish Chand
+and Panigrahi, Bijaya Ketan",
+title="Car Anti-theft System Using Driver Facial Biometrics Authentication and Telegram Alert",
+booktitle="Power Engineering and Intelligent Systems",
+year="2026",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="75--89",
+isbn="978-981-96-9724-3"
 }
 ```
 
